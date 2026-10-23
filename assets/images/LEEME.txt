@@ -1,0 +1,7 @@
+Ilustraciones propias del portafolio
+
+Cada actividad ya incluye una portada vectorial SVG con un motivo relacionado con el proyecto. El sitio intenta primero cargar la captura real indicada en la tarjeta; si todavía no existe, muestra la ilustración SVG correspondiente.
+
+Para sustituir la ilustración por tu captura, copia la imagen dentro de esta carpeta usando exactamente el nombre que aparece en la tarjeta después de “Cambiar por:”. Por ejemplo, `reloj-opengl.png`. La captura aparecerá automáticamente al actualizar la página.
+
+Las portadas editables están en esta carpeta como archivos `.svg`, con el ID de cada actividad (por ejemplo, `clock.svg` y `puzzle.svg`). Puedes abrirlas o reemplazarlas cuando quieras.

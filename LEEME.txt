@@ -1,0 +1,33 @@
+PORTAFOLIO WEB · DIEGO RODRIGUEZ
+
+CONTENIDO
+- index.html: página de inicio.
+- laboratorios.html: actividades y demostraciones interactivas.
+- reloj.html: reloj interactivo.
+- villa-serena.html: caso del proyecto Villa Serena.
+- hoja-de-vida.html: página de hoja de vida y visor del PDF.
+- Hoja de vida.pdf: documento PDF original.
+- assets/site.css: estilos, colores, diseño adaptable y modo oscuro.
+- assets/site.js: menú, reloj de portada y cambio de tema.
+- assets/activities-data.js: textos y datos de las actividades.
+- assets/activities.js: tarjetas, filtros y demostraciones.
+- assets/clock.js: funcionamiento del reloj.
+- assets/images/: ilustraciones vectoriales y espacio para capturas.
+
+ABRIR EL SITIO
+1. Extrae todos los archivos del ZIP en una misma carpeta.
+2. Conserva la estructura de carpetas `assets` y `assets/images`.
+3. Abre `index.html` con tu navegador.
+
+PERSONALIZAR
+- Cambia el contenido de las páginas en los archivos `.html`.
+- Edita actividades en `assets/activities-data.js`.
+- Ajusta el diseño en `assets/site.css`.
+- El comportamiento está en `assets/site.js`, `assets/activities.js` y `assets/clock.js`.
+- En las actividades, cada tarjeta indica el nombre de archivo esperado para reemplazar la ilustración con una captura tuya. Copia la imagen a `assets/images` usando ese nombre.
+- El visor de hoja de vida necesita `Hoja de vida.pdf` en la carpeta raíz, junto a los archivos HTML.
+
+PUBLICAR
+Para subir el sitio a un hosting, carga el contenido completo de esta carpeta, incluidos los archivos de `assets` y el PDF. No subas solo los HTML porque necesitan sus estilos, scripts e imágenes.
+
+Este sitio es estático y no necesita instalar dependencias ni compilarse.
